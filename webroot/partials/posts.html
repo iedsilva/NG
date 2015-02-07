@@ -1,0 +1,38 @@
+<div ng-controller="PostListCtrl">
+	<h1 class="page-header">Lista de posts</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th width="25px">ID</th>
+				<th>TITLE</th>
+				<th>CONTENT</th>
+				<th>CREATED DATE</th>
+				<th width="50px"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="e in posts">
+				<td>{{e.Post.id}}</td>
+				<td>{{e.Post.title}}</td>
+				<td>{{e.Post.body}}</td>
+				<td>{{e.Post.created|date:'short'}}</td>
+				<td>
+					<a class="pointer" ng-click="editPost($index)">
+						<i class="fa fa-pencil-square-o"></i>
+					</a>
+					<a class="pointer" ng-click="delPost($index)">
+						<i class="fa fa-trash"></i>
+					</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<button type="button" class="btn btn-success" ng-click="addPost()">
+			<b class="icon-plus-sign"></b>Add Post
+		</button>
+	</p>
+	<p ng-show="msg" class="bg-success">
+		{{msg}}
+	</p>
+</div>
