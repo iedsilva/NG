@@ -38,3 +38,10 @@ Thumbs.db
 
 app/webroot/img/
 app/tmp/
+app/tmp/cache
+app/tmp/cache/models
+app/tmp/cache/persistent
+app/tmp/cache/views
+app/tmp/tests
+app/tmp/logs
+app/tmp/sessions
