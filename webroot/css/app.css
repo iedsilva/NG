@@ -58,11 +58,16 @@ body{
 	background:#02B0E2;
 	height:80px;
 }
-.header .container{
-	max-width: 1080px;
-	background:transparent;
+.header .content{
+	max-width: 1170px;
+	margin:0 auto;
+	padding: 0 20px;
 }
-.container{
-	max-width:1080px;
-	background: #fff;
+
+footer{
+	max-width: 1170px;
+	margin:0 auto;
+}
+.bg{
+	padding: 15px;
 }
