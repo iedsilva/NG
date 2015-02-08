@@ -44,4 +44,4 @@ app/tmp/cache/persistent
 app/tmp/cache/views
 app/tmp/tests
 app/tmp/logs
-app/tmp/sessions
+app/tmp/sessions/
