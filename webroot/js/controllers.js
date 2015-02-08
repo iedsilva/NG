@@ -80,3 +80,7 @@ as.controller('EditPostCtrl', function($scope, $rootScope, $http, $routeParams, 
         });
     }
 });
+
+as.controller('XController', function($scope, $rootScope, $http, $routeParams, $location) {
+    //The controller
+});
