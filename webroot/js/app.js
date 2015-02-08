@@ -7,4 +7,6 @@ $routeProvider
     .when('/edit-post/:id', {templateUrl: 'partials/edit-post.html', controller: 'EditPostCtrl'})
     .otherwise({redirectTo: '/'});
 
+    $locationProvider.html5Mode(true);
+
 });
