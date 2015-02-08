@@ -45,4 +45,3 @@ app/tmp/cache/views
 app/tmp/tests
 app/tmp/logs
 app/tmp/sessions
-#test to I see if the ignore is running
