@@ -45,3 +45,6 @@ app/tmp/cache/views
 app/tmp/tests
 app/tmp/logs
 app/tmp/sessions
+tmp/cache/persistent/ng_cake_core_cake_dev_pt-br
+tmp/cache/persistent/ng_cake_core_file_map
+tmp/cache/persistent/ng_cake_core_file_map
